@@ -22,6 +22,15 @@ Here are some ideas to get you started:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=skethirajan&theme=transparent&bg_color=00000000&hide_border=true&hide_progress=true)
 
 <!--START_SECTION:waka-->
+
+```rust
+From: 26 August 2024 - To: 26 August 2024
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 
