@@ -1,11 +1,13 @@
 name: Waka Readme
 
 on:
-  # for manual workflow trigger
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
-    - cron: "0 0 * * *"
+    # runs at 6 AM & 6 PM PTC
+    - cron: "0 1,13 * * *"
 
 jobs:
   update-readme:
@@ -15,6 +17,13 @@ jobs:
       - uses: athul/waka-readme@master # this action name
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true # optional
+          SECTION_NAME: waka # optional
+          BLOCKS: -> # optional
+          TIME_RANGE: all_time # optional
+          LANG_COUNT: 10 # optional
+          SHOW_TIME: true # optional
+          SHOW_TOTAL: true # optional
           COMMITTER_NAME: GitHubActionBot # optional
           COMMITTER_EMAIL: action-bot@github.com # optional
           AUTHOR_NAME: Saurabh Sivakumar # optional
