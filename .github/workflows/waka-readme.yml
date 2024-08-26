@@ -1,8 +1,11 @@
 name: Waka Readme
 
 on:
-  # for manual workflow trigger
+  push:
+    branches:
+      - main
   workflow_dispatch:
+  # for manual workflow trigger
   schedule:
     # runs at 6 AM & 6 PM PTC
     - cron: "0 1,13 * * *"
