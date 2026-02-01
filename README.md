@@ -20,11 +20,11 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```python
-From: 26 August 2024 - To: 30 January 2026
+From: 26 August 2024 - To: 31 January 2026
 
 Total Time: 134 hrs 55 mins
 
-Other              2,706 hrs 53 mins>>>>>>>>>>>>>>>>>>>>>>>>-   95.25 %
+Other              2,707 hrs 30 mins>>>>>>>>>>>>>>>>>>>>>>>>-   95.25 %
 ```
 
 <!--END_SECTION:waka-->
